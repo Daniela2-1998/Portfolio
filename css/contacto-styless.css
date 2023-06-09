@@ -1,0 +1,85 @@
+.datos_titulo{
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.datos_titulo h1{
+    color: #3B5DA0;
+    display: flex;
+    align-items: center;
+}
+
+.logo_agenda{
+    width: 5%;
+    height: 50px;
+    display: flex;
+    background-image: url("/img/datos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.espacio_contacto{
+    width: 90%;
+    height: 470px;
+    background-color: #3B5DA0;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos{
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    color: #3B5DA0;
+    font-weight: bolder;
+    border-radius: 2%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin{
+    width: 5%;
+    height: 50px;
+    background-image: url("/img/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2%;
+    display: flex;
+}
+
+.link{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    color: #3B5DA0;
+    align-items: center;
+}
+
+
+.github{
+    width: 5%;
+    height: 50px;
+    background-image: url("/img/github-png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2%;
+    display: flex;
+}
+
+.mail{
+    width: 5%;
+    height: 50px;
+    background-image: url("/img/mail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2%;
+    display: flex;
+}
