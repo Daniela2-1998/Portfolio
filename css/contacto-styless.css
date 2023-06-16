@@ -83,3 +83,42 @@
     margin: 2%;
     display: flex;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .logo_agenda {
+        width: 10%;
+    }
+
+
+    .datos {
+        border-radius: 2%;
+        margin: 5%;
+    }
+
+    .linkedin {
+        width: 10%;
+    }
+
+    .link {
+        width: 50%;
+    }
+
+
+    .githubc {
+        width: 10%;
+    }
+
+    .mail {
+        width: 10%;
+    }
+
+
+
+}
