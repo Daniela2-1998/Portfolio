@@ -1,3 +1,17 @@
+.datos_titulo{
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.datos_titulo h1{
+    color: #3B5DA0;
+    display: flex;
+    align-items: center;
+}
+
 .logo_materiales{
     width: 5%;
     height: 50px;
@@ -8,7 +22,7 @@
     align-items: center;
 }
 
-h2{
+main h2{
     color: #3B5DA0;
     font-weight: bolder;
     text-align: left;
@@ -74,3 +88,217 @@ h2{
     margin-left: 2%;
 }
 
+.contenedor-imagen{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.comexapp-imagen{
+    width: 100%;
+    height: 550px;
+    background-image: url("/img/proyectos/login.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gamerweb-imagen{
+    width: 100%;
+    height: 550px;
+    background-image: url("/img/proyectos/web1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gamerweb-imagen2{
+    width: 100%;
+    height: 550px;
+    background-image: url("/img/proyectos/juegos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+@media screen and (min-width:769px) and (max-width: 1350px) {
+    .espacio-perfiles{
+        height: 400px;
+    }
+    
+    .info-perfiles{
+        width: 35%;
+        height: 400px;
+    }
+    
+    .perfiles{
+        width: 80%;
+        height: 180px;
+    }
+    
+    .proyecto{
+        width: 95%;
+        height: 850px;
+    }
+    
+    .contenedor-proyecto{
+        height: 800px;
+    }
+    
+    .info-proyecto{
+        width: 55%;
+        height: 700px;
+    }
+    
+    .contenedor-imagen{
+        width: 40%;
+        margin-left: 2%;
+    }
+    
+    .comexapp-imagen{
+        width: 100%;
+    }
+    
+    .gamerweb-imagen{
+        width: 100%;
+    }
+    
+    .gamerweb-imagen2{
+        width: 100%;
+    }
+
+    #contenedor-proyecto2{
+        height: 600px;
+    }
+    
+    #proyecto2{
+        height: 500px;
+    }
+    
+    #contenedor-2{
+        height: 400px;
+    }
+    
+    #gamerweb-2{
+        margin-top: -60%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+.espacio-perfiles{
+    height: 400px;
+}
+
+.info-perfiles{
+    width: 35%;
+    height: 400px;
+}
+
+.perfiles{
+    width: 80%;
+    height: 180px;
+}
+
+.proyecto{
+    width: 95%;
+    height: 850px;
+}
+
+.contenedor-proyecto{
+    height: 800px;
+}
+
+.info-proyecto{
+    width: 55%;
+    height: 700px;
+}
+
+.contenedor-imagen{
+    width: 40%;
+    margin-left: 2%;
+}
+
+.comexapp-imagen{
+    width: 100%;
+}
+
+.gamerweb-imagen{
+    width: 100%;
+}
+
+.gamerweb-imagen2{
+    width: 100%;
+}
+
+#contenedor-proyecto2{
+    height: 400px;
+}
+
+#proyecto2{
+    height: 500px;
+}
+
+#contenedor-2{
+    height: 400px;
+}
+
+#gamerweb-2{
+    margin-top: -60%;
+}
+
+}
+
+
+@media screen and (max-width:767px) {
+    
+.proyecto{
+    height: 950px;
+    font-size: 14px;
+}
+
+.contenedor-proyecto{
+    height: 950px;
+}
+
+.info-proyecto{
+    width: 55%;
+    height: 850px;
+}
+
+.contenedor-imagen{
+    width: 40%;
+    margin-left: 2%;
+}
+
+.comexapp-imagen{
+    width: 100%;
+}
+
+.gamerweb-imagen{
+    width: 100%;
+}
+
+.gamerweb-imagen2{
+    width: 100%;
+}
+
+#contenedor-proyecto2{
+    height: 600px;
+}
+
+#proyecto2{
+    height: 500px;
+}
+
+#contenedor-2{
+    height: 400px;
+}
+
+#gamerweb-2{
+    margin-top: -60%;
+}
+
+}
