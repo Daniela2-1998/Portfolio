@@ -31,7 +31,7 @@ main h2{
 
 .espacio-perfiles{
     width: 90%;
-    height: 400px;
+    height: 500px;
     margin-left: 2%;
     display: flex;
 }
@@ -51,6 +51,42 @@ main h2{
     margin-bottom: 5%;
     padding: 5%;
     border-radius: 3%;
+}
+
+.imagen-perfiles{
+    width: 60%;
+    height: 500px;
+    margin-left: 10%;
+}
+
+.ff-web{
+    height: 600px;
+    background-image: url("/img/proyectos/ff.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.espacio-boton-ver{
+    width: 100%;
+    height: 70px;
+}
+
+.boton-ver-imagenes{
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    background-color: #3B5DA0;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: large;
+    border: 2px solid;
+    border-color: #3B5DA0;
+    border-radius: 5px;
+}
+
+.boton-ver-imagenes:hover{
+    background-color: #324f8a;
+    font-size: larger;
 }
 
 .proyecto{
@@ -79,9 +115,9 @@ main h2{
 }
 
 .info-proyecto{
-    width: 45%;
+    width: 65%;
     height: 550px;
-    padding: 5%;
+    padding: 2%;
     background-color: #FFFFFF;
     color: #3B5DA0;
     font-weight: bold;
@@ -123,6 +159,7 @@ main h2{
 
 
 @media screen and (min-width:769px) and (max-width: 1350px) {
+
     .espacio-perfiles{
         height: 400px;
     }
@@ -193,12 +230,12 @@ main h2{
 }
 
 .info-perfiles{
-    width: 35%;
+    width: 40%;
     height: 400px;
 }
 
 .perfiles{
-    width: 80%;
+    width: 100%;
     height: 180px;
 }
 
@@ -209,6 +246,7 @@ main h2{
 
 .contenedor-proyecto{
     height: 800px;
+    flex-direction: column;
 }
 
 .info-proyecto{
@@ -252,25 +290,49 @@ main h2{
 }
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) {    
+
+    .espacio-perfiles{
+        height: 450px;
+        flex-direction: column;
+    }
     
+    .info-perfiles{
+        width: 100%;
+        height: 200px;
+        margin-left: 5%;
+    }
+      
+    .imagen-perfiles{
+        width: 100%;
+        height: 800px;
+        margin-left: 2%;
+    }
+
 .proyecto{
-    height: 950px;
+    height: 1050px;
     font-size: 14px;
 }
 
 .contenedor-proyecto{
-    height: 950px;
+    height: 800px;
 }
 
 .info-proyecto{
-    width: 55%;
-    height: 850px;
+    width: 95%;
+    height: 700px;
+    font-size: 14px;
+    margin-left: 2%;
+}
+
+.info-proyecto ul{
+    margin-left: 3%;
 }
 
 .contenedor-imagen{
-    width: 40%;
-    margin-left: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .comexapp-imagen{
@@ -290,11 +352,11 @@ main h2{
 }
 
 #proyecto2{
-    height: 500px;
+    height: 600px;
 }
 
 #contenedor-2{
-    height: 400px;
+    height: 500px;
 }
 
 #gamerweb-2{

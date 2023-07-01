@@ -1,0 +1,61 @@
+#color-nav{
+    background-color: #3B5DA0 !important;  
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+#ubicacion{
+    margin-left: 40%;
+}
+
+.carousel{
+    height: 600px;
+    width: 90%;
+    margin: 5%;
+}
+
+.ff{
+    height: 600px;
+    background-image: url("/img/proyectos/ff.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tabla-comexapp{
+    height: 600px;
+    background-image: url("/img/proyectos/tablacomexapp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.seccion-comexapp{
+    height: 600px;
+    background-image: url("/img/proyectos/seccioncomexapp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 1000px) {
+
+    #color-nav{
+        height: 150px;
+        background-color: #3B5DA0 !important;  
+        font-size: 15px;
+        display: flex;
+        flex-direction: column !important;
+    }
+    
+}
+
+
+@media (max-width: 500px) {
+
+    #color-nav{
+        height: 200px;
+        background-color: #3B5DA0 !important;  
+        font-size: 15px;
+        display: flex;
+        flex-direction: column !important;
+    }
+    
+}

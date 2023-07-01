@@ -38,6 +38,8 @@ a{
     height: 300px;
     padding: 3%;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .foto {
