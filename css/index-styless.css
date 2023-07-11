@@ -183,6 +183,8 @@ h4{
     background-image: url("/img/tecnologias/java.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .cmas{
@@ -191,6 +193,8 @@ h4{
     background-image: url("/img/tecnologias/c++.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .html{
@@ -200,6 +204,8 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 5%;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 } 
 .css{
     width: 33.3%;
@@ -208,6 +214,8 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 5%;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .js{
@@ -217,6 +225,8 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 5%;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .columna_db_frame{
@@ -250,6 +260,8 @@ h4{
     background-image: url("/img/tecnologias/mysql.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .postgre{
@@ -258,6 +270,8 @@ h4{
     background-image: url("/img/tecnologias/postgresql.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .frameworks{
@@ -283,6 +297,8 @@ h4{
     background-image: url("/img/tecnologias/springboot.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .bootstrap{
@@ -291,6 +307,8 @@ h4{
     background-image: url("/img/tecnologias/bootstrap.png");
     background-repeat: no-repeat;
     background-size: contain;
+    mix-blend-mode: multiply;
+    filter:brightness(1.1);
 }
 
 .espacio_tecno2{
