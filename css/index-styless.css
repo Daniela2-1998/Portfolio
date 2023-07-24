@@ -698,6 +698,10 @@ footer{
         flex-direction: column;
     }
     
+    .contenedor_info h1{
+        font-size: 1rem;
+    }
+
     .contenedor_imagen{
         width: 100%;
         height: 300px;
@@ -706,7 +710,7 @@ footer{
     .foto {
         width: 40%;
         border-radius: 0%;
-        margin-left: 35%;
+        margin-left: 15%;
     }
     
     .contenedor_info{
@@ -790,6 +794,33 @@ footer{
         margin-right: 1%;
     }
     
+    .seccion{
+        font-size: 0.8rem;
+    }
+    
+    .estudios{
+        height: 460px;
+        font-size: 0.5;
+    }
+    
+    .lista_estudios{
+        height: 430px;
+        font-size: 0.5rem;
+    }
+
+    .titulo_estudios{
+        font-size: 1rem;
+    }
+
+    .personalidad_intereses{
+        height: 1200px;
+    }
+    
+    .espacio_personalidad{
+        height: 500px;
+        padding: 2%;
+    }
+
     footer{
         height: 300px;
         display: flex;
@@ -817,9 +848,10 @@ footer{
         width: 10%;
         margin-right: 7%;
     }
-    
+      
     .mail{
-        width: 10%;
+        width: 15%;
+        height: 40px;
     }
     
     .links_footer div{
@@ -829,11 +861,7 @@ footer{
     
 }
 
-@media screen and (min-width: 500px) and (max-width:650px) {
-
-    body{
-        background-color: rgb(196, 46, 41);
-    }
+@media (max-width:650px) {
 
     .info_personal{
         height: 450px;
@@ -844,7 +872,7 @@ footer{
     }
 
     .contenedor_info h1{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .seccion{
@@ -852,13 +880,15 @@ footer{
     }
     
     .estudios{
+        height: 460px;
         font-size: 0.5;
     }
     
     .lista_estudios{
+        height: 430px;
         font-size: 0.5rem;
     }
-    
+
     .titulo_estudios{
         font-size: 1rem;
     }
