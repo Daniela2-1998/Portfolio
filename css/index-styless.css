@@ -828,3 +828,54 @@ footer{
     }
     
 }
+
+@media screen and (min-width: 500px) and (max-width:650px) {
+
+    body{
+        background-color: rgb(196, 46, 41);
+    }
+
+    .info_personal{
+        height: 450px;
+    }
+    
+    .foto {
+        margin-left: 12%;
+    }
+
+    .contenedor_info h1{
+        font-size: 1.4rem;
+    }
+    
+    .seccion{
+        font-size: 0.8rem;
+    }
+    
+    .estudios{
+        font-size: 0.5;
+    }
+    
+    .lista_estudios{
+        font-size: 0.5rem;
+    }
+    
+    .titulo_estudios{
+        font-size: 1rem;
+    }
+
+    .personalidad_intereses{
+        height: 1200px;
+    }
+    
+    .espacio_personalidad{
+        height: 500px;
+        padding: 2%;
+    }
+    
+    .mail{
+        width: 15%;
+        height: 40px;
+    }
+    
+    
+}
