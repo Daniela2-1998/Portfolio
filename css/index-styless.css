@@ -692,17 +692,26 @@ footer{
     
 }
 
+@media screen and (min-width:951px) and (max-width: 1200px){
+    
+    .info_personal{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 @media screen and (max-width:950px) {
 
     .info_personal{
-        height: 400px;
+        height: 550px;
         display: flex;
         flex-direction: column;
     }
     
     .contenedor_info h1{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .contenedor_imagen{
@@ -868,10 +877,10 @@ footer{
     
 }
 
-@media (max-width:650px) {
+@media (max-width: 850px) {
 
     .info_personal{
-        height: 450px;
+        height: 550px;
     }
     
     .foto {
@@ -879,7 +888,7 @@ footer{
     }
 
     .contenedor_info h1{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     .espacio_tecno, .espacio_tecno2{
@@ -888,7 +897,7 @@ footer{
 
     .espacio_tecno2{
         width: 100%;
-        margin-top: -15%;
+        margin-top: -13%;
         height: 170px;
     }
     
@@ -898,7 +907,6 @@ footer{
     
     .estudios{
         height: 480px;
-        font-size: 0.5;
     }
     
     .lista_estudios{
@@ -906,7 +914,7 @@ footer{
     }
 
     .lista_estudios ul,li{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .titulo_estudios{
